@@ -1,0 +1,21 @@
+{
+  "name": "cli-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "type": "module",
+  "license": "MIT",
+  "lib": [
+    "bin",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "execa": "^6.1.0",
+    "inquirer": "^8.2.1",
+    "prettier": "^2.6.0"
+  }
+}

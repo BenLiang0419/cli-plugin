@@ -1,0 +1,17 @@
+{
+    "name": "<%= packageName %>",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "license": "MIT",
+    "scripts": {
+        "test": "node index.js"
+    },
+    "dependencies": {
+        "vue": "^2.6.11",
+        <% if (router) { %>
+        "vue-router": "^3.5.1"
+        <% } %>
+    }
+}
+  
